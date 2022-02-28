@@ -220,3 +220,94 @@ header{
 .why-image{
     height: 605px;
 }
+
+/* About us */
+
+.about-us{
+    position: relative;
+    top: 166px;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+
+.about-text{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    color: var(--title-color);
+    width: 650px;
+}
+
+.about-under-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    color: rgba(34, 53, 111, 0.5);
+}
+
+.about-list{
+    margin-top: 25px;
+    display: flex;
+}
+
+.about-item{
+    width: 360px;
+    height: 360px;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: var(--white-color);
+}
+
+.about-line{
+    width: 255px;
+    height: 3px;
+    background: var(--white-color);
+    position: relative;
+    top: 72px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.about-item-text{
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-list .first{
+    background: #FFE2DE;
+}
+
+.about-list .second{
+    background: #C4E769;
+}
+
+.about-list .third{
+    background: var(--cyan-color);
+}
+
+.about-list .forth{
+    background: #0052C1;
+}
+
+.about-item-text::before{
+    content: '';
+    width: 9px;
+    height: 9px;
+    border-radius: 50px;
+    background: orange;
+    margin-right: 15px;
+}
